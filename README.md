@@ -3,7 +3,7 @@
 **Course**: CS771 Introduction to Machine Learning (IIT Kanpur)  
 **Instructor**: Purushottam Kar  
 **Academic Year**: 2025-26  
-**Author**: Mainak (mainak9093)
+**Author**: Mainak Sarkar
 
 ---
 
