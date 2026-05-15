@@ -111,8 +111,11 @@ pip install -r requirements.txt
 ### Running the Solution
 
 ```bash
-# Run the main solution
-python solution.py
+# Run the main solution on public data
+python solution.py --dataset public
+
+# Evaluate baseline models and degree performance
+python solution.py --dataset public --run-baselines --evaluate-degrees
 
 # This will:
 # 1. Load and preprocess data
@@ -129,6 +132,12 @@ python solution.py
 jupyter notebook
 
 # Open notebooks/analysis.ipynb for detailed step-by-step analysis
+```
+
+### Running Tests
+
+```bash
+pytest tests
 ```
 
 ---
