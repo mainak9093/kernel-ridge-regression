@@ -71,7 +71,6 @@ venv.bak/
 .DS_Store
 
 # Data files (keep directory structure)
-data/secret/
 results/
 
 # Model files
