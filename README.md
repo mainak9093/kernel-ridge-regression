@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 Problem Statement
+## Problem Statement
 
 Implement **Kernel Ridge Regression (KRR)** for a video recommendation task. The goal is to predict video engagement based on:
 - **Feature x**: Video length (scalar)
@@ -22,7 +22,7 @@ Implement **Kernel Ridge Regression (KRR)** for a video recommendation task. The
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 kernel-ridge-regression/
@@ -57,7 +57,7 @@ kernel-ridge-regression/
 
 ---
 
-## 🎯 Approach
+## Approach
 
 ### 1. **Data Preprocessing**
 - Load training and test data from `.txt` files
@@ -91,7 +91,7 @@ Grid search over:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -142,7 +142,7 @@ pytest tests
 
 ---
 
-## 📊 Results
+## Results
 
 ### Best Model Configuration
 | Parameter | Value |
@@ -208,7 +208,7 @@ y_pred = kr.predict(K_test_train)
 
 ---
 
-## 🔍 Validation & Testing
+## Validation & Testing
 
 The solution was validated using:
 - **Google Colab** validation script (provided by course)
@@ -219,7 +219,7 @@ The solution was validated using:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 1. **Optimal Polynomial Degree**: A quadratic kernel (degree=2) provides the best balance between model complexity and generalization
 2. **Feature Interaction**: The composite kernel captures important interactions between video length (x) and content features (z)
@@ -228,7 +228,7 @@ The solution was validated using:
 
 ---
 
-## 📝 Files Description
+## Files Description
 
 | File | Purpose |
 |------|---------|
@@ -241,26 +241,26 @@ The solution was validated using:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is an assignment submission. For improvements or questions, feel free to open an issue or contact the author.
 
 ---
 
-## 📄 License
+## License
 
 Academic use only. Part of CS771 course at IIT Kanpur.
 
 ---
 
-## 👤 Author
+## Author
 
 **Mainak** (mainak9093)  
 IIT Kanpur, CS771 - Introduction to Machine Learning
 
 ---
 
-## 📞 Support
+## Support
 
 For issues or questions:
 - Check the `docs/approach.md` for detailed explanations
